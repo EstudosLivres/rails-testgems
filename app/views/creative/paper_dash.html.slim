@@ -1,0 +1,26 @@
+.row
+  .col-lg-3.col-sm-6
+    =render 'creative/dash_partials/capacity_card'
+  .col-lg-3.col-sm-6
+    =render 'creative/dash_partials/revenue_card'
+  .col-lg-3.col-sm-6
+    =render 'creative/dash_partials/error_card'
+  .col-lg-3.col-sm-6
+    =render 'creative/dash_partials/twitter_card'
+
+.row
+  .col-md-12
+    .card
+      .header
+        h4.title Users Behavior
+        p.category 24 Hours performance
+      .content
+        #chartHours.ct-chart
+        .footer
+          .chart-legend
+            i class="fa fa-circle text-info"
+            | Open
+            i class="fa fa-circle text-danger"
+            | Click
+            i class="fa fa-circle text-warning"
+            | Click Second Time
