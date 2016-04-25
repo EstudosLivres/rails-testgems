@@ -10,17 +10,11 @@
 
 .row
   .col-md-12
-    .card
-      .header
-        h4.title Users Behavior
-        p.category 24 Hours performance
-      .content
-        #chartHours.ct-chart
-        .footer
-          .chart-legend
-            i class="fa fa-circle text-info"
-            | Open
-            i class="fa fa-circle text-danger"
-            | Click
-            i class="fa fa-circle text-warning"
-            | Click Second Time
+    =render 'creative/dash_partials/area_chart'
+
+.row
+  .col-md-6
+    =render 'creative/dash_partials/pie_chart'
+
+  .col-md-6
+    =render 'creative/dash_partials/line_chart'
