@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title TestGems
+    link href="https://fonts.googleapis.com/css?family=Muli:400,300" rel="stylesheet" type="text/css"
+    =stylesheet_link_tag 'creative_paper_dash_pro', media: 'all', 'data-turbolinks-track' => true
+    =csrf_meta_tags
+  body
+    .wrapper
+      =render 'layouts/dash_partials/sidebar'
+
+      .main-panel
+        =render 'layouts/dash_partials/nav_bar'
+
+        .content
+          .container-fluid
+            =yield
+
+  =javascript_include_tag 'creative_paper_dash', 'data-turbolinks-track' => true

@@ -46,6 +46,7 @@ gem 'themify-icons-rails', '~> 1.0', '>= 1.0.1.1'
 
 # Creative-Tim assets GEM
 gem 'creative_tim', '~> 0.0.3'
+gem 'CreativePRO', git: 'git@github.com:NITRO-START/CreativePRO.git'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

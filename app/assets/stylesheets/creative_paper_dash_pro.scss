@@ -1,0 +1,15 @@
+/*
+ * Frameworks
+ *= require font-awesome
+ *= require themify-icons
+ *= require paper-dashboard-pro/paper-dashboard
+ * Fixes
+ *= stub scaffolds.scss
+ *
+ * My Styles
+ *= require_tree .
+*/
+
+.card .stats i {
+  margin-right: 4px;
+}
